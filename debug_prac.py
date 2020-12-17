@@ -47,7 +47,7 @@ def uniqueUpdate(data1, data2):
             if k1 == k:
                 # Found pair with key = k
                 kFound = True
-                if V1 != V2 :
+                if v1 != v2 :
                    # Remove (k, v1) from data1
                    data1.remove([k, v1])
                    # Add (k, [v1, v2])
